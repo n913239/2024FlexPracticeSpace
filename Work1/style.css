@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* 查看目前的排版 */
+    /* outline: solid 1px; */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+body {
+    font-family: "Noto Sans TC", "Microsoft JhengHei", serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;    
+    background: #395745;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(33% - 12px);
+    background: #fff;
+    padding-bottom: 50px;
+}
+
+.card-top {
+    background: #E7EEEA;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 100px;
+    font-weight: 320;
+    padding: 50px 10px;
+    color: #37523D;
+}
+
+.card-subtitle {
+    font-size: 34px;
+    font-weight: 500;
+    padding: 20px 10px;
+    color: #37523D;
+    text-align: left;
+}
+
+.card-text {
+    font-size: 30px;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+.mr-12 {
+    margin-right: 12px;
+}
+
+.pl-16 {
+    padding-left: 16px;
+}
